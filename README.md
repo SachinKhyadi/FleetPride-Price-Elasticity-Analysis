@@ -9,7 +9,7 @@ without any quantitative demand framework. This project answers:
 > *"If we raise the price on a specific part by 10%, how much volume do we lose and does revenue go up or down?"*
 
 **The core challenge is causal, not predictive.** FleetPride raises prices when demand
-is already high — meaning price and sales are simultaneously driven by the same demand
+is already high meaning price and sales are simultaneously driven by the same demand
 environment. Standard OLS cannot separate these effects. We use **Two-Stage Least Squares
 (2SLS) with a COGS instrument** to isolate the true causal price effect.
 
@@ -31,7 +31,7 @@ environment. Standard OLS cannot separate these effects. We use **Two-Stage Leas
 
 **Key data facts:**
 - actual_sales skewness = **2.836** (raw) → **-0.049** (after log transform)
-- comp_price zero for **55%** of rows — structural missing, not $0
+- comp_price zero for **55%** of rows structural missing, not $0
 - annual_spend corrected from median to **forward-fill within customer** (time-series valid)
 - **111 rows removed** (returns, zeros, adjustments) → 4,971 clean rows
 
