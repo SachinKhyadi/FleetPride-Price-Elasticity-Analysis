@@ -16,7 +16,7 @@ environment. Standard OLS cannot separate these effects. We use **Two-Stage Leas
 **Deliverables:**
 - ✅ Causal elasticity estimate per SKU with 95% confidence intervals
 - ✅ Q4 2025 forecast (422 transactions, 6.9% MAPE)
-- ✅ 7-page interactive Power BI dashboard with live price simulator
+- ✅ 5-page interactive Power BI dashboard with live price simulator
 - ✅ Prioritized pricing recommendations with dollar impact
 
 ---
